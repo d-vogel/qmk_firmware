@@ -18,12 +18,13 @@ In this configuration:
 - `SW`: sends `KC_MPLY`.
 
 Connection to the arduino pro micro:
-| Encoder pin | Arduino pin   | Amega32u8 pin  |
-|:-----------:|:-------------:|:--------------:|
-| SW          | 11            | PB3            |
-| CLK         | 9             | PB1            |
-| DT          | 10            | PB2            |
-| VCC         | not connected | not connected  |
-| GND         | 30            | PB6            |
+
+| Encoder pin | Arduino pin   | ATmega32u8 pin  |
+|:-----------:|:-------------:|:---------------:|
+| SW          | 11            | PB3             |
+| CLK         | 9             | PB1             |
+| DT          | 10            | PB2             |
+| VCC         | not connected | not connected   |
+| GND         | 30            | PB6             |
 
 Debouncing was disabled, because it interferes with detection.
