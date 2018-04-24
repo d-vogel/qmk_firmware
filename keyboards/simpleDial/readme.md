@@ -3,7 +3,7 @@
 This is a very simple volume/play-pause dial using a rotary encoder with push-button.
 The encoder is integrated in the regular matrix by connecting it in an unusual way.
 
-The encoder used is a generic one from Amazon. The pins one the PCB are identified as folowing:
+The encoder used is a generic one from Amazon. The pins on the PCB are identified as follows:
 - `VCC`
 - `GND`
 - `CLK` : quadrature encoder clock signal, pulled-up.
@@ -11,7 +11,7 @@ The encoder used is a generic one from Amazon. The pins one the PCB are identifi
 - `SW` : push switch, unpopulated pull-up footprint.
 
 The wiring of those is well documented. However, they do not integrate well in QMK without implementing custom matrix scanning code.
-However, using the `GND` pin as column, `CLK`, `DT`, and `SW` as rows, removing the pull-up resistors allows using the regular matrix scanning code.
+Using the `GND` pin as column, `CLK`, `DT`, and `SW` as rows, removing the pull-up resistors allows using the regular matrix scanning code.
 In this configuration:
 - `DT`: associated to a layer switch keyboard.
 - `CLK`: sends `KC_VOLD` or `KC_VOLU` depending on the active layer.
