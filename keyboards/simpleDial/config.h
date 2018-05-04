@@ -42,8 +42,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */                                      // connections on the quadrature encoder
-#define MATRIX_ROW_PINS { B3, B1, B2 }  //SW, CLK, DT
-#define MATRIX_COL_PINS { B6 }          //GND
+#define MATRIX_ROW_PINS { B5, B2, B6 }  //SW, CLK, DT
+#define MATRIX_COL_PINS { B4 }          //GND
 #define UNUSED_PINS                     //VCC
 
 /* COL2ROW, ROW2COL, or CUSTOM_MATRIX */

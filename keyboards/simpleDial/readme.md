@@ -21,10 +21,17 @@ Connection to the arduino pro micro:
 
 | Encoder pin | Arduino pin   | ATmega32u8 pin  |
 |:-----------:|:-------------:|:---------------:|
-| SW          | 11            | PB3             |
-| CLK         | 9             | PB1             |
-| DT          | 10            | PB2             |
+| SW          | 9             | PB5             |
+| CLK         | 16            | PB2             |
+| DT          | 10            | PB6             |
 | VCC         | not connected | not connected   |
-| GND         | 30            | PB6             |
+| GND         | 8             | PB4             |
 
 Debouncing was disabled, because it interferes with detection.
+
+## Build
+The important part is to remove the pull-ups (R1, R2, R3) from the rotary encoder.
+![Disassembled view](https://imgur.com/hqzz4dI)
+
+Assembled final prototype, rubber sheet to isolate the two boards.
+![Assembled view](https://imgur.com/sfKE3uT)
