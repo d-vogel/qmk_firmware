@@ -31,7 +31,7 @@ Debouncing was disabled, because it interferes with detection.
 
 ## Build
 The important part is to remove the pull-ups (R1, R2, R3) from the rotary encoder.
-![Disassembled view](https://imgur.com/hqzz4dI)
+![Disassembled view](https://i.imgur.com/hqzz4dI.jpg)
 
 Assembled final prototype, rubber sheet to isolate the two boards.
-![Assembled view](https://imgur.com/sfKE3uT)
+![Assembled view](https://i.imgur.com/sfKE3uT.jpg)
